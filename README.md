@@ -16,7 +16,7 @@ This application allows you to display the folder structure of any selected dire
 
 For users who do not have Python installed, you can directly download the executable file and run it on any Windows PC.
 
-1. Download the latest version of the `.exe` file from the [Releases](https://github.com/Arjunmehta312/show-folder-content/releases) section.
+1. Download the latest version of the `.exe` file from the repository.
 2. Double-click on the downloaded `show-folder-content.exe` to launch the application.
 
 ### Option 2: Run the Python Script
@@ -25,7 +25,7 @@ If you prefer to run the script in Python or want to modify the code, follow the
 
 1. Clone this repository or download the source code.
    ```bash
-   git clone https://github.com/Arjunmehta312/show-folder-content.git
+   git clone https://github.com/Arjunmehta312/folder-display-tool.git
    
 2. Install the required dependencies by running the following command:
   ```bash
