@@ -70,6 +70,14 @@ Search: Search for specific files/folders in the folder structure.
 Export Options: Save the structure in various formats (Text, HTML, JSON).
 Improved GUI: A more user-friendly layout with additional options.
 
+#### Version 3
+
+The third version adds more functionality and improvements:
+
+- **Hide Node Modules**: Option to hide node_modules directories from the structure display
+- **Improved UI**: Enhanced user interface with better spacing and organization
+- **Bug Fixes**: Various improvements to stability and performance
+- **Version Indicator**: Clear version labeling in the application title and interface
 
 ## Folder Structure
 The project contains the following folder structure:
@@ -77,16 +85,20 @@ The project contains the following folder structure:
 ```bash
 folder-display-tool/
 │
-├── README.md                 # Project documentation
-├── python/                    # Python scripts for different versions
-│   ├── Version 1/             # Folder for version 1 of the tool
-│   │   ├── Code/              # Python script for version 1
-│   │   │   └── show-folder-content.py
-│   │   └── Exe/               # Executable for version 1 (if applicable)
-│   └── Version 2/             # Folder for version 2 of the tool
-│       ├── Code/              # Python script for version 2
-│       │   └── show-folder-content.py
-│       └── Exe/               # Executable for version 2 (if applicable)
+├── README.md # Project documentation
+├── python/ # Python scripts for different versions
+│ ├── Version 1/ # Folder for version 1 of the tool
+│ │ ├── Code/ # Python script for version 1
+│ │ │ └── show-folder-content.py
+│ │ └── Exe/ # Executable for version 1 (if applicable)
+│ ├── Version 2/ # Folder for version 2 of the tool
+│ │ ├── Code/ # Python script for version 2
+│ │ │ └── show-folder-content.py
+│ │ └── Exe/ # Executable for version 2 (if applicable)
+│ └── Version 3/ # Folder for version 3 of the tool
+│ ├── Code/ # Python script for version 3
+│ │ └── show-folder-content.py
+│ └── Exe/ # Executable for version 3 (if applicable)
 ```
 
 ## Contributing
