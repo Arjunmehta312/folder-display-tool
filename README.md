@@ -1,7 +1,7 @@
 # Folder Structure Display Tool
 
 The **Folder Structure Display Tool** is a Python-based GUI application designed to display the folder structure of any selected directory. The tool allows users to explore folder contents, search through the structure, and save the output in various formats (Text, HTML, JSON). It also provides the option to copy the structure to the clipboard.
-
+ 
 ## Features
 
 - **Select Folder**: Browse and select any folder on your system.
