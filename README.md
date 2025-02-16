@@ -60,15 +60,16 @@ Copy to Clipboard: Click this button to copy the folder structure to your clipbo
 
 #### Version 1
 
-The first version of the tool, which displays the folder structure, allows users to copy it to the clipboard, and save it as a text file. This version provides a basic GUI without search or export options.
+- The first version of the tool, which displays the folder structure, allows users to copy it to the clipboard, and save it as a text file. 
+- This version provides a basic GUI without search or export options.
 
 #### Version 2
 
 The second version introduces additional features such as:
 
-Search: Search for specific files/folders in the folder structure.
-Export Options: Save the structure in various formats (Text, HTML, JSON).
-Improved GUI: A more user-friendly layout with additional options.
+- **Search**: Search for specific files/folders in the folder structure.
+- **Export Options**: Save the structure in various formats (Text, HTML, JSON).
+- **Improved GUI**: A more user-friendly layout with additional options.
 
 #### Version 3
 
