@@ -102,7 +102,6 @@ git clone https://github.com/Arjunmehta312/folder-display-tool.git
 Navigate to the project directory:
 ```bash
 cd folder-display-tool
-Run the Python script:
 ```
 To run the application, execute the show-folder-content.py script.
 ```bash
