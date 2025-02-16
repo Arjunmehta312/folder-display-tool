@@ -8,6 +8,7 @@
 ## Python Package Usage
 
 The Folder Structure Display Tool is also available as a Python package that you can use in your own code. 
+Link to the package: https://pypi.org/project/folder-display/
 
 ### Installation
 
