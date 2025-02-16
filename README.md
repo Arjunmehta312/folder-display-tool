@@ -1,7 +1,68 @@
-# Folder Structure Display Tool
+# This folder structure tool consists of two parts:
+
+1. Python Library (published on PyPI and available for use)
+2. GUI (built using Tkinter and available for use in the releases section of this repository)
+
+# 1. Python Library
+
+## Python Package Usage
+
+The Folder Structure Display Tool is also available as a Python package that you can use in your own code. 
+
+### Installation
+
+Install the package using pip:
+```bash
+pip install folder-display
+```
+
+### Basic Usage
+
+Here's how to use the package in your Python code:
+
+```python
+from folder_display import FolderDisplay
+```
+
+#### Create a FolderDisplay instance
+```python
+fd = FolderDisplay()
+```
+
+#### Configure options
+```python
+fd.set_excluded_folders(['node_modules', 'venv']) # Exclude specific folders
+fd.set_include_hidden(False) # Don't show hidden files
+```
+
+#### Display folder structure
+```python
+structure = fd.display('/path/to/folder')
+print(structure)
+```
+
+#### Export in different formats
+```python
+fd.export_html('/path/to/folder', 'structure.html')
+fd.export_json('/path/to/folder', 'structure.json')
+fd.export_text('/path/to/folder', 'structure.txt')
+```
+
+### Features
+
+The package provides these main features:
+- Display folder structure with proper indentation
+- Exclude specific folders (e.g., node_modules)
+- Include/exclude hidden files
+- Export to multiple formats (HTML, JSON, Text)
+- Customizable indentation
+
+
+
+# 2. Folder Structure Display Tool (GUI)
 
 The **Folder Structure Display Tool** is a Python-based GUI application designed to display the folder structure of any selected directory. The tool allows users to explore folder contents, search through the structure, and save the output in various formats (Text, HTML, JSON). It also provides the option to copy the structure to the clipboard.
- 
+
 ## Features
 
 - **Select Folder**: Browse and select any folder on your system.
