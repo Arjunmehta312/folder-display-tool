@@ -141,6 +141,19 @@ The third version adds more functionality and improvements:
 - **Bug Fixes**: Various improvements to stability and performance
 - **Version Indicator**: Clear version labeling in the application title and interface
 
+#### Version 4
+
+The fourth version specifically addresses Windows path length limitations and complex folder/file name issues:
+
+- **Path Length Analysis**: Real-time monitoring and analysis of path lengths with visual indicators
+- **Windows Path Limit Detection**: Automatic detection of paths exceeding Windows 260-character limit
+- **Name Truncation**: Smart truncation of long file/folder names while preserving extensions
+- **Path Length Display**: Optional display of character count for each path
+- **Problem Reporting**: Dedicated window showing problematic paths with detailed analysis
+- **Enhanced Export Options**: Path analysis reports in multiple formats
+- **Color-Coded Display**: Visual warnings for long and invalid paths
+- **Resizable Interface**: Improved UI for better viewing of complex structures
+
 ## Folder Structure
 The project contains the following folder structure:
 
@@ -148,19 +161,26 @@ The project contains the following folder structure:
 folder-display-tool/
 │
 ├── README.md # Project documentation
-├── python/ # Python scripts for different versions
+├── GUI Applications/ # GUI versions of the tool
 │ ├── Version 1/ # Folder for version 1 of the tool
-│ │ ├── Code/ # Python script for version 1
-│ │ │ └── show-folder-content.py
-│ │ └── Exe/ # Executable for version 1 (if applicable)
+│ │ └── Code/ # Python script for version 1
+│ │   └── show-folder-content.py
 │ ├── Version 2/ # Folder for version 2 of the tool
-│ │ ├── Code/ # Python script for version 2
-│ │ │ └── show-folder-content.py
-│ │ └── Exe/ # Executable for version 2 (if applicable)
-│ └── Version 3/ # Folder for version 3 of the tool
-│ ├── Code/ # Python script for version 3
-│ │ └── show-folder-content.py
-│ └── Exe/ # Executable for version 3 (if applicable)
+│ │ └── Code/ # Python script for version 2
+│ │   └── show-folder-content.py
+│ ├── Version 3/ # Folder for version 3 of the tool
+│ │ └── Code/ # Python script for version 3
+│ │   └── show-folder-content.py
+│ └── Version 4/ # Folder for version 4 of the tool
+│   ├── Code/ # Python script for version 4
+│   │ └── show-folder-content.py
+│   └── README.md # Version 4 specific documentation
+├── Python Package for Library/ # Python library package
+│ ├── setup.py # Package setup configuration
+│ └── folder_display/ # Main package directory
+│   ├── __init__.py
+│   ├── folder_display.py
+│   └── exporters.py
 ```
 
 ## Contributing
